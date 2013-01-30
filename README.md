@@ -1,8 +1,8 @@
 XDE-Resources
 ===============
 
-Robot URDF/DAE pack and a python module that store
-path to them.
+Robot URDF/DAE pack and a python module that stores their
+path.
 
 Install:
 ---------
