@@ -21,6 +21,12 @@ SET(RESOURCES_URDF
 
 	urdf/rx90.xml
 	urdf/rx90.dae
+
+	urdf/icub.xml
+	urdf/icub.dae
+	urdf/icub_simple.xml
+	urdf/icub_simple.dae
+	urdf/icub_simple_collision.dae
 )
 
 FOREACH(SOURCE ${RESOURCES_URDF})
