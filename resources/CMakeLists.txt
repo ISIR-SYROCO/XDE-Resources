@@ -16,8 +16,9 @@ SET(RESOURCES_URDF
 	urdf/kuka.xml
 	urdf/kuka_lwr.dae
 
+	urdf/kuka_simple.xml
+
 	urdf/sphere.xml
-	urdf/sphere.dae
 
 	urdf/rx90.xml
 	urdf/rx90.dae
