@@ -9,16 +9,16 @@
             <inertia ixx="0.00805112828804"  ixy="0"  ixz="0" iyy="0.00845152236845" iyz="0" izz="0.00863585824764" />
         </inertial>
         <visual>
-            <origin xyz="0  0 -0.3105" rpy="0  0  0" />
+            <origin xyz="0  0 0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_base"/>
+				<mesh filename="lwr/base.dae"/>
             </geometry>
             <material name="material.metal" />
         </visual>
         <collision>
-            <origin xyz="0  0 -0.3105" rpy="0  0  0" />
+            <origin xyz="0  0 0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_base"/>
+				<mesh filename="lwr/base.dae"/>
             </geometry>
         </collision>
     </link>
@@ -29,16 +29,16 @@
             <inertia ixx="0.0129545076394"  ixy="0"  ixz="0" iyy="0.0128178432409" iyz="0" izz="0.00442072765916" />
         </inertial>
         <visual>
-            <origin xyz="0  0  0" rpy="1.5707962513  0  0" />
+            <origin xyz="0  0 0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_1"/>
+				<mesh filename="lwr/link1.dae"/>
             </geometry>
             <material name="material.metal" />
         </visual>
         <collision>
-            <origin xyz="0  0  0" rpy="1.5707962513  0  0" />
+            <origin xyz="0  0  0" rpy="0  0 0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_1"/>
+				<mesh filename="lwr/link1.dae"/>
             </geometry>
         </collision>
     </link>
@@ -49,16 +49,16 @@
             <inertia ixx="0.0132950018592"  ixy="0"  ixz="0" iyy="0.0131003199685" iyz="0" izz="0.0044657387969" />
         </inertial>
         <visual>
-            <origin xyz="0  0  0.2" rpy="1.57079519432  0  3.14159250259" />
+            <origin xyz="0  0  0" rpy="0 0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_2"/>
+				<mesh filename="lwr/link2.dae"/>
             </geometry>
             <material name="material.metal" />
         </visual>
         <collision>
-            <origin xyz="0  0  0.2" rpy="1.57079519432  0  3.14159250259" />
+            <origin xyz="0  0  0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_2"/>
+				<mesh filename="lwr/link2.dae"/>
             </geometry>
         </collision>
     </link>
@@ -69,16 +69,16 @@
             <inertia ixx="0.0127763513867"  ixy="0"  ixz="0" iyy="0.0128011372133" iyz="0" izz="0.0043627376553" />
         </inertial>
         <visual>
-            <origin xyz="0  0  0" rpy="1.57079519432  0  3.14159250259" />
+            <origin xyz="0  0  0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_3"/>
+				<mesh filename="lwr/link1.dae"/>
             </geometry>
             <material name="material.metal" />
         </visual>
         <collision>
-            <origin xyz="0  0  0" rpy="1.57079519432  0  3.14159250259" />
+            <origin xyz="0  0  0" rpy="0 0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_3"/>
+				<mesh filename="lwr/link1.dae"/>
             </geometry>
         </collision>
     </link>
@@ -89,16 +89,16 @@
             <inertia ixx="0.0132276730313"  ixy="0"  ixz="0" iyy="0.0130734228464" iyz="0" izz="0.00439977729281" />
         </inertial>
         <visual>
-            <origin xyz="0  0  0.2" rpy="1.57079519432  0  3.14159250259" />
+            <origin xyz="0  0  0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_4"/>
+				<mesh filename="lwr/link4.dae"/>
             </geometry>
             <material name="material.metal" />
         </visual>
         <collision>
-            <origin xyz="0  0  0.2" rpy="1.57079519432  0  3.14159250259" />
+            <origin xyz="0  0  0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_4"/>
+				<mesh filename="lwr/link4.dae"/>
             </geometry>
         </collision>
     </link>
@@ -109,16 +109,16 @@
             <inertia ixx="0.0124407882151"  ixy="0"  ixz="0" iyy="0.0124710412724" iyz="0" izz="0.00438005667842" />
         </inertial>
         <visual>
-            <origin xyz="0  0  0" rpy="1.57079519432  0  3.14159250259" />
+            <origin xyz="0  0  0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_5"/>
+				<mesh filename="lwr/link5.dae"/>
             </geometry>
             <material name="material.metal" />
         </visual>
         <collision>
-            <origin xyz="0  0  0" rpy="1.57079519432  0  3.14159250259" />
+            <origin xyz="0  0  0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_5"/>
+				<mesh filename="lwr/link5.dae"/>
             </geometry>
         </collision>
     </link>
@@ -129,16 +129,16 @@
             <inertia ixx="0.00284169077177"  ixy="0"  ixz="0" iyy="0.00298256896714" iyz="0" izz="0.00296892557443" />
         </inertial>
         <visual>
-            <origin xyz="0  0  0.078" rpy="1.57081557874  0  -1.57079617584" />
+            <origin xyz="0  0  0.0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_6"/>
+				<mesh filename="lwr/link6.dae"/>
             </geometry>
             <material name="material.metal" />
         </visual>
         <collision>
-            <origin xyz="0  0  0.078" rpy="1.57081557874  0  -1.57079617584" />
+            <origin xyz="0  0  0.0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_6"/>
+				<mesh filename="lwr/link6.dae"/>
             </geometry>
         </collision>
     </link>
@@ -149,72 +149,72 @@
             <inertia ixx="5.81502716972e-05"  ixy="0"  ixz="0" iyy="5.84472283068e-05" iyz="0" izz="9.68983240391e-05" />
         </inertial>
         <visual>
-            <origin xyz="0  0  0.21" rpy="1.57079674929  0  3.14159250259" />
+            <origin xyz="0  0  0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_7"/>
+				<mesh filename="lwr/link7.dae"/>
             </geometry>
             <material name="material.metal" />
         </visual>
         <collision>
-            <origin xyz="0  0  0.21" rpy="1.57079674929  0  3.14159250259" />
+            <origin xyz="0  0  0" rpy="0  0  0" />
             <geometry>
-                <mesh filename="kuka_lwr.dae#kuka_7"/>
+				<mesh filename="lwr/link7.dae"/>
             </geometry>
         </collision>
     </link>
-    
-    
-    
+
+
+
     <joint name="Shoulder_0" type="revolute">
-        <origin xyz="0 0 0" rpy="0 0 0" />
+        <origin xyz="0 0 0.1" rpy="0 0 0" />
         <parent link="00"/>
         <child link="01" />
         <axis xyz="0 0 1" />
         <limit lower="-10" upper="10" effort="1000" velocity="10" />
     </joint>
-    
+
     <joint name="Shoulder_1" type="revolute">
-        <origin xyz="0 0 0" rpy="0 0 0" />
+        <origin xyz="0 0 0.2105" rpy="0 0 0" />
         <parent link="01"/>
         <child link="02" />
         <axis xyz="0 1 0" />
         <limit lower="-10" upper="10" effort="1000" velocity="10" />
     </joint>
-    
+
     <joint name="Shoulder_2" type="revolute">
-        <origin xyz="0 0 0.4" rpy="0 0 0" />
+        <origin xyz="0 0 0.19" rpy="0 0 3.14159265359" />
         <parent link="02"/>
         <child link="03" />
         <axis xyz="0 0 1" />
         <limit lower="-10" upper="10" effort="1000" velocity="10" />
     </joint>
-    
+
     <joint name="Elbow_0" type="revolute">
-        <origin xyz="0 0 0" rpy="0 0 3.14159265359" />
+        <origin xyz="0 0 0.21" rpy="0 0 3.14159265359" />
         <parent link="03"/>
         <child link="04" />
         <axis xyz="0 1 0" />
         <limit lower="-10" upper="10" effort="1000" velocity="10" />
     </joint>
-    
+
     <joint name="Wrist_0" type="revolute">
-        <origin xyz="0 0 0.39" rpy="0 0 0" />
+        <origin xyz="0 0 0.185" rpy="0 0 0" />
         <parent link="04"/>
         <child link="05" />
         <axis xyz="0 0 1" />
         <limit lower="-10" upper="10" effort="1000" velocity="10" />
     </joint>
-    
+
     <joint name="Wrist_1" type="revolute">
-        <origin xyz="0 0 0" rpy="0 0 1.570796326795" />
+        <origin xyz="0 0 0.2" rpy="0 0 0" />
         <parent link="05"/>
         <child link="06" />
-        <axis xyz="1 0 0" />
+        <axis xyz="0 1 0" />
         <limit lower="-10" upper="10" effort="1000" velocity="10" />
     </joint>
-    
+
     <joint name="Wrist_2" type="revolute">
-        <origin xyz="0 0 0" rpy="0 0 0" />
+        <origin xyz="0 0 0.079" rpy="0 0 0" />
         <parent link="06"/>
         <child link="07" />
         <axis xyz="0 0 1" />

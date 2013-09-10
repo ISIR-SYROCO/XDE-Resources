@@ -14,7 +14,14 @@ SET(RESOURCES_URDF
 	urdf/ground_phy_50mm.dae
 
 	urdf/kuka.xml
-	urdf/kuka_lwr.dae
+	urdf/lwr/base.dae
+	urdf/lwr/link1.dae
+	urdf/lwr/link2.dae
+	urdf/lwr/link3.dae
+	urdf/lwr/link4.dae
+	urdf/lwr/link5.dae
+	urdf/lwr/link6.dae
+	urdf/lwr/link7.dae
 
 	urdf/kuka_simple.xml
 
