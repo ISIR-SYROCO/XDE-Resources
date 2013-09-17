@@ -13,7 +13,7 @@
             <geometry>
 				<mesh filename="lwr/base.dae"/>
             </geometry>
-            <material name="material.metal" />
+			<material name="material.metal"/>
         </visual>
         <collision>
             <origin xyz="0  0 0" rpy="0  0  0" />
@@ -33,7 +33,7 @@
             <geometry>
 				<mesh filename="lwr/link1.dae"/>
             </geometry>
-            <material name="material.metal" />
+			<material name="material.metal" />
         </visual>
         <collision>
             <origin xyz="0  0  0" rpy="0  0 0" />
@@ -166,7 +166,7 @@
 
 
     <joint name="Shoulder_0" type="revolute">
-        <origin xyz="0 0 0.1" rpy="0 0 0" />
+        <origin xyz="0 0 0.103" rpy="0 0 0" />
         <parent link="00"/>
         <child link="01" />
         <axis xyz="0 0 1" />
@@ -182,7 +182,7 @@
     </joint>
 
     <joint name="Shoulder_2" type="revolute">
-        <origin xyz="0 0 0.19" rpy="0 0 3.14159265359" />
+        <origin xyz="0 0 0.192" rpy="0 0 3.14159265359" />
         <parent link="02"/>
         <child link="03" />
         <axis xyz="0 0 1" />
@@ -190,7 +190,7 @@
     </joint>
 
     <joint name="Elbow_0" type="revolute">
-        <origin xyz="0 0 0.21" rpy="0 0 3.14159265359" />
+        <origin xyz="0 0.003 0.21" rpy="0 0 3.14159265359" />
         <parent link="03"/>
         <child link="04" />
         <axis xyz="0 1 0" />
@@ -198,7 +198,7 @@
     </joint>
 
     <joint name="Wrist_0" type="revolute">
-        <origin xyz="0 0 0.185" rpy="0 0 0" />
+        <origin xyz="0 0 0.193" rpy="0 0 0" />
         <parent link="04"/>
         <child link="05" />
         <axis xyz="0 0 1" />
