@@ -14,14 +14,7 @@ SET(RESOURCES_URDF
 	urdf/ground_phy_50mm.dae
 
 	urdf/kuka.xml
-	urdf/lwr/base.dae
-	urdf/lwr/link1.dae
-	urdf/lwr/link2.dae
-	urdf/lwr/link3.dae
-	urdf/lwr/link4.dae
-	urdf/lwr/link5.dae
-	urdf/lwr/link6.dae
-	urdf/lwr/link7.dae
+
 
 	urdf/kuka_simple.xml
 
@@ -37,8 +30,27 @@ SET(RESOURCES_URDF
 	urdf/icub_simple_collision.dae
 )
 
+SET(RESOURCES_LWR_COLLADA
+	urdf/lwr/base.dae
+	urdf/lwr/link1.dae
+	urdf/lwr/link2.dae
+	urdf/lwr/link3.dae
+	urdf/lwr/link4.dae
+	urdf/lwr/link5.dae
+	urdf/lwr/link6.dae
+	urdf/lwr/link7.dae
+)
+
 FOREACH(SOURCE ${RESOURCES_URDF})
 	INSTALL(FILES ${SOURCE}
 		DESTINATION ${XDE_RESOURCES_PATH}
 		PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ)
 ENDFOREACH(SOURCE ${RESOURCES_URDF})
+
+FOREACH(SOURCE ${RESOURCES_LWR_COLLADA})
+	INSTALL(FILES ${SOURCE}
+		DESTINATION ${XDE_RESOURCES_PATH}/lwr
+		PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ)
+ENDFOREACH(SOURCE ${RESOURCES_LWR_COLLADA})
+
+
