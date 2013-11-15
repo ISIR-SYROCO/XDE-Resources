@@ -391,124 +391,133 @@
   <library_controllers/>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="kuka_base" type="NODE">
+      <node id="kuka_base_position" type="NODE">
         <translate sid="location">0 0 0.3105</translate>
         <rotate sid="rotationZ">0 0 1 0</rotate>
         <rotate sid="rotationY">0 1 0 0</rotate>
         <rotate sid="rotationX">1 0 0 0</rotate>
         <scale sid="scale">1 1 1</scale>
-        <instance_geometry url="#unnamed_object1-mesh">
-          <bind_material>
-            <technique_common>
-              <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
-            </technique_common>
-          </bind_material>
-        </instance_geometry>
+        <node id="kuka_base" type="NODE">
+          <instance_geometry url="#unnamed_object1-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
       </node>
-      <node id="kuka_7" type="NODE">
-        <matrix sid="parentinverse">-1 1.50996e-7 -1.44713e-13 2.82387e-14 -8.09177e-14 4.22499e-7 1 -1.3105 1.50996e-7 1 -4.22499e-7 1.45746e-6 0 0 0 1</matrix>
+      <node id="kuka_7_position" type="NODE">
         <translate sid="location">0 0 1.1005</translate>
         <rotate sid="rotationZ">0 0 1 0</rotate>
         <rotate sid="rotationY">0 1 0 0</rotate>
         <rotate sid="rotationX">1 0 0 0</rotate>
         <scale sid="scale">1 1 1</scale>
-        <instance_geometry url="#kuka7-mesh">
-          <bind_material>
-            <technique_common>
-              <instance_material symbol="KukaDarkMat1" target="#KukaDarkMat-material"/>
-            </technique_common>
-          </bind_material>
-        </instance_geometry>
+        <node id="kuka_7" type="NODE">
+          <instance_geometry url="#kuka7-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="KukaDarkMat1" target="#KukaDarkMat-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
       </node>
-      <node id="kuka_6" type="NODE">
-        <matrix sid="parentinverse">-1 1.50996e-7 -1.4805e-13 3.21705e-14 -3.19048e-13 -1.13247e-6 1 -1.1785 1.50996e-7 1 1.13247e-6 -3.75073e-7 0 0 0 1</matrix>
+      <node id="kuka_6_position" type="NODE">
         <translate sid="location">0 0 1.1005</translate>
         <rotate sid="rotationZ">0 0 1 90</rotate>
         <rotate sid="rotationY">0 1 0 -0.001167941</rotate>
         <rotate sid="rotationX">1 0 0 -0.001167943</rotate>
         <scale sid="scale">1 1 1</scale>
-        <instance_geometry url="#kuka6-mesh">
-          <bind_material>
-            <technique_common>
-              <instance_material symbol="KukaDarkMat1" target="#KukaDarkMat-material"/>
-            </technique_common>
-          </bind_material>
-        </instance_geometry>
+        <node id="kuka_6" type="NODE">
+          <instance_geometry url="#kuka6-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="KukaDarkMat1" target="#KukaDarkMat-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
       </node>
-      <node id="kuka_5" type="NODE">
-        <matrix sid="parentinverse">-1 1.50996e-7 -1.53357e-13 3.80118e-14 -3.24355e-13 -1.13247e-6 1 -1.1005 1.50996e-7 1 1.13247e-6 -3.75073e-7 0 0 0 1</matrix>
+      <node id="kuka_5_position" type="NODE">
         <translate sid="location">0 0 1.1005</translate>
-        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationZ">0 0 1 180.</rotate>
         <rotate sid="rotationY">0 1 0 0</rotate>
         <rotate sid="rotationX">1 0 0 0</rotate>
         <scale sid="scale">1 1 1</scale>
-        <instance_geometry url="#kuka5-mesh">
-          <bind_material>
-            <technique_common>
-              <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
-            </technique_common>
-          </bind_material>
-        </instance_geometry>
+        <node id="kuka_5" type="NODE">
+          <instance_geometry url="#kuka5-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
       </node>
-      <node id="kuka_4" type="NODE">
-        <matrix sid="parentinverse">-1 1.50996e-7 -1.53357e-13 3.80118e-14 -3.24355e-13 -1.13247e-6 1 -0.9105 1.50996e-7 1 1.13247e-6 -3.75074e-7 0 0 0 1</matrix>
+      <node id="kuka_4_position" type="NODE">
+        <translate sid="location">0 0 0.7105</translate>
+        <rotate sid="rotationZ">0 0 1 180.</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <node id="kuka_4" type="NODE">
+          <instance_geometry url="#kuka4-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <node id="kuka_3_position" type="NODE">
         <translate sid="location">0 0 0.7105</translate>
         <rotate sid="rotationZ">0 0 1 0</rotate>
         <rotate sid="rotationY">0 1 0 0</rotate>
         <rotate sid="rotationX">1 0 0 0</rotate>
         <scale sid="scale">1 1 1</scale>
-        <instance_geometry url="#kuka4-mesh">
-          <bind_material>
-            <technique_common>
-              <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
-            </technique_common>
-          </bind_material>
-        </instance_geometry>
+        <node id="kuka_3" type="NODE">
+          <instance_geometry url="#kuka3-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
       </node>
-      <node id="kuka_3" type="NODE">
-        <matrix sid="parentinverse">-1 1.50996e-7 -1.68523e-13 4.87866e-14 -3.39521e-13 -1.13247e-6 1 -0.7105 1.50996e-7 1 1.13247e-6 -3.75074e-7 0 0 0 1</matrix>
-        <translate sid="location">0 0 0.7105</translate>
-        <rotate sid="rotationZ">0 0 1 0</rotate>
-        <rotate sid="rotationY">0 1 0 0</rotate>
-        <rotate sid="rotationX">1 0 0 0</rotate>
-        <scale sid="scale">1 1 1</scale>
-        <instance_geometry url="#kuka3-mesh">
-          <bind_material>
-            <technique_common>
-              <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
-            </technique_common>
-          </bind_material>
-        </instance_geometry>
-      </node>
-      <node id="kuka_2" type="NODE">
-        <matrix sid="parentinverse">-1 1.50996e-7 -1.68523e-13 4.87866e-14 -3.39521e-13 -1.13247e-6 1 -0.5105 1.50996e-7 1 1.13247e-6 -3.75074e-7 0 0 0 1</matrix>
+      <node id="kuka_2_position" type="NODE">
         <translate sid="location">0 0 0.3105</translate>
         <rotate sid="rotationZ">0 0 1 0</rotate>
         <rotate sid="rotationY">0 1 0 0</rotate>
         <rotate sid="rotationX">1 0 0 0</rotate>
         <scale sid="scale">1 1 1</scale>
-        <instance_geometry url="#kuka2-mesh">
-          <bind_material>
-            <technique_common>
-              <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
-            </technique_common>
-          </bind_material>
-        </instance_geometry>
+        <node id="kuka_2" type="NODE">
+          <instance_geometry url="#kuka2-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
       </node>
-      <node id="kuka_1" type="NODE">
-        <matrix sid="parentinverse">1 0 0 0 0 7.54979e-8 1 -0.3105 0 -1 7.54979e-8 0 0 0 0 1</matrix>
+      <node id="kuka_1_position" type="NODE">
         <translate sid="location">0 0 0.3105</translate>
         <rotate sid="rotationZ">0 0 1 0</rotate>
         <rotate sid="rotationY">0 1 0 0</rotate>
         <rotate sid="rotationX">1 0 0 0</rotate>
         <scale sid="scale">1 1 1</scale>
-        <instance_geometry url="#kuka1-mesh">
-          <bind_material>
-            <technique_common>
-              <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
-            </technique_common>
-          </bind_material>
-        </instance_geometry>
+        <node id="kuka_1" type="NODE">
+          <instance_geometry url="#kuka1-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="KukaOrangeMat1" target="#KukaOrangeMat-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
       </node>
     </visual_scene>
   </library_visual_scenes>
