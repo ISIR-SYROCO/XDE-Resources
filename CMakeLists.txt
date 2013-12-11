@@ -21,12 +21,11 @@ GET_FILENAME_COMPONENT(PYTHON_LIBRARY_DIRS ${PYTHON_LIBRARIES} PATH)
 
 EXECUTE_PROCESS(
   COMMAND "${PYTHON_EXECUTABLE}" "-c"
-  "import sys, os; print os.sep.join(['lib', 'python' + sys.version[:3], 'site-packages'])"
+  "import sys, os; print os.sep.join(['lib', 'python' + sys.version[:3], 'dist-packages'])"
   OUTPUT_VARIABLE PYTHON_SITELIB
   OUTPUT_STRIP_TRAILING_WHITESPACE
   ERROR_QUIET)
 
 SET(XDE_RESOURCES_PATH ${CMAKE_INSTALL_PREFIX}/share/xde-resources/urdf)
 
-ADD_SUBDIRECTORY(resources)
 ADD_SUBDIRECTORY(src)
