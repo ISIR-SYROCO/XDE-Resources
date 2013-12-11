@@ -9,24 +9,21 @@ Install:
 
 3 installations are possible:
 
-develop
-~~~~~~~
+* develop
 
 It creates a symbolic link of the src folder, for development purpose:
 
 	python setup.py develop
 
 
-python installation
-~~~~~~~~~~~~~~~~~~~
+* python installation
 
 The package is installed as a python package:
 
 	python setup.py install [--user]
 
 
-cmake installation
-~~~~~~~~~~~~~~~~~~
+* cmake installation
 
 Files are separated.
 The python files are installed as a python package, but the collada and urdf
