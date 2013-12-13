@@ -9,7 +9,7 @@ setup(name='XDE-Resources',
 	  author_email='hak@isir.upmc.fr',
 	  package_dir={package_name:'src'},
 	  packages=[package_name],
-	  package_data={package_name: ['resources/urdf/*.dae', 'resources/urdf/*.xml']},
+	  package_data={package_name: ['resources/urdf/*.dae', 'resources/urdf/lwr/*.dae', 'resources/urdf/*.xml']},
 	  cmdclass=cmdclass,
 
 	  script_name=script_name,
