@@ -17,3 +17,6 @@ icub_simple_compensated_viscous= resource_path+"icub_simple_compensated_viscous.
 icub_ge03_comp_visc_friction = resource_path+"iCubGenova03_compensatedViscousFriction.xml"
 icub_ge03_iden_visc_friction = resource_path+"iCubGenova03_identifiedViscousFriction.xml"
 icub_ge03_no_visc_friction = resource_path+"iCubGenova03_noViscousFriction.xml"
+
+romeo = resource_path+"romeo.xml"
+romeo_collision = resource_path+"romeo_collision.xml"
