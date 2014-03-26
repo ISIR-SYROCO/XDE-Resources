@@ -17,6 +17,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Waist.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -37,6 +38,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Torso.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -65,6 +67,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/NeckPitch.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -93,6 +96,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/HeadRoll.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -121,6 +125,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/LShoulderYaw.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -149,6 +154,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/LElbowYaw.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -169,6 +175,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/LWristRoll.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -189,6 +196,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/WristYaw.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -209,6 +217,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/LWristPitch.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -237,6 +246,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/RShoulderYaw.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -265,6 +275,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/RElbowYaw.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -285,6 +296,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/RWristRoll.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -305,6 +317,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/WristYaw.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -325,6 +338,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/RWristPitch.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -361,6 +375,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/LHipPitch.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -381,6 +396,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/LKneePitch.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -408,6 +424,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/LAnkleRoll.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -428,6 +445,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/LToePitch.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -471,6 +489,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/RHipPitch.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -491,6 +510,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/RKneePitch.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -519,6 +539,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/RAnkleRoll.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -539,6 +560,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/RToePitch.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -567,6 +589,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -587,6 +610,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -607,6 +631,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/PhalaxEnd.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -627,6 +652,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -647,6 +673,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -667,6 +694,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/PhalaxEnd.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -687,6 +715,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -707,6 +736,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -727,6 +757,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/PhalaxEnd.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -747,6 +778,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/LThumb.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -767,6 +799,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -787,6 +820,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/PhalaxEnd.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -807,6 +841,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -827,6 +862,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -847,6 +883,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/PhalaxEnd.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -867,6 +904,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -887,6 +925,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -907,6 +946,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/PhalaxEnd.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -927,6 +967,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -947,6 +988,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -967,6 +1009,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/PhalaxEnd.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -987,6 +1030,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/RThumb.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -1007,6 +1051,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/Phalax.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -1027,6 +1072,7 @@ FIXME: fill missing data: sensors
       <geometry>
 <mesh filename="romeo/original/PhalaxEnd.dae" />
       </geometry>
+      <material name="material.metal" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
