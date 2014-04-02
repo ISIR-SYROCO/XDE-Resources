@@ -429,6 +429,7 @@ FIXME: fill missing data: sensors
     </inertial>
   </link>
 
+<!--
   <link name="l_ankle">
     <inertial>
       <origin xyz="0.02618 0.00259 -0.03683" rpy="0 0 0"/>
@@ -470,8 +471,8 @@ FIXME: fill missing data: sensors
       </geometry>
     </collision>
   </link>
+-->
 
-<!--
   <link name="l_ankle">
     <inertial>
       <origin xyz="0.07856 -0.00603 -0.04513" rpy="0 0 0"/>
@@ -492,7 +493,6 @@ FIXME: fill missing data: sensors
       </geometry>
     </collision>
   </link>
--->
 
 <!--
   <link name="l_sole">
@@ -569,6 +569,7 @@ FIXME: fill missing data: sensors
     </inertial>
   </link>
 
+<!--
   <link name="r_ankle">
     <inertial>
       <origin xyz="0.02618 -0.00259 -0.03683" rpy="0 0 0"/>
@@ -610,8 +611,8 @@ FIXME: fill missing data: sensors
       </geometry>
     </collision>
   </link>
+-->
 
-<!--
   <link name="r_ankle">
     <inertial>
       <origin xyz="0.07856 0.00603 -0.04513" rpy="0 0 0"/>
@@ -632,7 +633,6 @@ FIXME: fill missing data: sensors
       </geometry>
     </collision>
   </link>
--->
 
 <!--
   <link name="r_sole">
@@ -1358,6 +1358,7 @@ FIXME: fill missing data: sensors
     <limit effort="27.911346822" lower="-0.349065844444444" upper="0.349065844444444" velocity="10.28929" />
   </joint>
 
+<!--
   <joint name="LToePitch" type="revolute">
     <origin xyz="0.1135 0 -0.0524" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
@@ -1365,6 +1366,7 @@ FIXME: fill missing data: sensors
     <child link="l_toe"/>
     <limit effort="0" lower="-0.78539815" upper="0" velocity="0" />
   </joint>
+-->
 
   <joint name="RHipYaw" type="revolute">
     <origin xyz="0 -0.096 -0.20004" rpy="0 0 0"/>
@@ -1414,6 +1416,7 @@ FIXME: fill missing data: sensors
     <limit effort="27.911346822" lower="-0.349065844444444" upper="0.349065844444444" velocity="10.28929" />
   </joint>
 
+<!--
   <joint name="RToePitch" type="revolute">
     <origin xyz="0.1135 0 -0.0524" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
@@ -1421,6 +1424,7 @@ FIXME: fill missing data: sensors
     <child link="r_toe"/>
     <limit effort="0" lower="-0.78539815" upper="0" velocity="0" />
   </joint>
+-->
 
 <!--
   <joint name="LFinger11" type="revolute">
