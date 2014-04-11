@@ -222,14 +222,12 @@ FIXME: fill missing data: sensors
       </geometry>
       <material name="material.metal" />
     </visual>
-<!--
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-<mesh filename="romeo/original/LWristPitch.dae" />
+<mesh filename="romeo/collision/LWristPitch.dae" />
       </geometry>
     </collision>
--->
   </link>
 
   <link name="RShoulderPitchLink">
@@ -351,14 +349,12 @@ FIXME: fill missing data: sensors
       </geometry>
       <material name="material.metal" />
     </visual>
-<!--
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
 <mesh filename="romeo/original/RWristPitch.dae" />
       </geometry>
     </collision>
--->
   </link>
 
   <link name="LHipYawLink">
@@ -411,14 +407,12 @@ FIXME: fill missing data: sensors
       </geometry>
       <material name="material.metal" />
     </visual>
-<!--
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
 <mesh filename="romeo/collision/LKneePitch.dae" />
       </geometry>
     </collision>
--->
   </link>
 
   <link name="LAnklePitchLink">
@@ -551,14 +545,12 @@ FIXME: fill missing data: sensors
       </geometry>
       <material name="material.metal" />
     </visual>
-<!--
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
 <mesh filename="romeo/collision/RKneePitch.dae" />
       </geometry>
     </collision>
--->
   </link>
 
   <link name="RAnklePitchLink">
